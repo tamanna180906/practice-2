@@ -30,7 +30,7 @@ function Navbar() {
                         </ul>
                     </div>
                     <div className='lg:hidden absolute top-[15px] right-2' onClick={()=>setShow(!show)}>
-                        {show?  <RxCross1/>:<FaBarsStaggered/>}
+                        {show? <RxCross1/>:<FaBarsStaggered/>}
                     </div>
                 </div>
             </Container>
